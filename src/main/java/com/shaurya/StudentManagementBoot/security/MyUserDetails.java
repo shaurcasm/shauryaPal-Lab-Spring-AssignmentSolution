@@ -13,6 +13,10 @@ import com.shaurya.StudentManagementBoot.entity.User;
 
 public class MyUserDetails implements UserDetails {
 
+	/**
+	 * Added generated Serial Id
+	 */
+	private static final long serialVersionUID = -7076488470060924156L;
 	private User user;
 	
 	public MyUserDetails(User user) {
